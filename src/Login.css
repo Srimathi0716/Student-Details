@@ -1,0 +1,35 @@
+.back{
+     
+     background-image: url('./asset/Mec.jpg');
+     padding: 275px 0px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.display{
+     display: flex;
+}
+.learn{
+      margin-left: 10%;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 60px;
+     
+}
+.detail{
+     background: transparent;
+     border: none;
+      margin-left: 10%;
+}
+.mit{
+     font-family: 'Times New Roman', Times, serif;
+     margin-top: 1px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(17, 151, 196);
+    color: rgb(213, 211, 211);
+}
+.one{
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(213, 211, 211);
+
+}

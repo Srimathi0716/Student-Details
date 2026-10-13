@@ -1,0 +1,22 @@
+input{
+    width: 200px;
+}
+form{
+    width: 30%;
+    border: 4px solid rgb(2, 2, 23);
+    padding: 7px;
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+button{
+    width: 70px;
+    background-color: pink;
+    border-radius: 20px;
+    border-color: rgb(7, 0, 0);
+    padding:7px;
+    
+
+}
