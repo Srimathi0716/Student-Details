@@ -1,28 +1,16 @@
-//import React from "react";
-import {React,useState} from 'react';
+import React from 'react';
 
-function Header(){
-
-    const[status,setStatus]=useState("");
-
-
-    const Ctime=new Date().toLocaleTimeString();
-    console.log(Ctime)
-    if(Ctime>="8:00:00"&& status !="grey"){
-        console.log("System is offline");
-        setStatus("grey")
-    }
-    //else{
-      //  console.log("System is offline");
-    //}   
-    return(
-        <>
-        <div style={{width:"100%", height: "100vh",backgroundColor: status}}>
-        Header React
-        {status}
-        <button disabled ={status=="grey"?true:false}></button>
-        </div>
-        </>
-    )
+function Header() {
+  return (
+    <header className="header">
+      <h1>🎓 SympoTrack</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </header>
+  );
 }
+
 export default Header;

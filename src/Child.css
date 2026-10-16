@@ -1,0 +1,27 @@
+.student-card {
+  background-color: #ffffff;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 320px;
+  border-top: 5px solid #007bff;
+}
+
+.card-heading {
+  margin: 0 0 15px 0;
+  color: #222222;
+  font-size: 22px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #444444;
+}
+
+.card-label {
+  font-weight: bold;
+  color: #007bff;
+}
